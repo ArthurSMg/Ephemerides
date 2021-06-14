@@ -19,7 +19,9 @@ plt.ylabel("Distancia ao Sol (AU)")
 plt.xlabel("Dias")
 plt.title("Efemerides de 4Vega")
 
+plt.savefig("Your_Graph")   #saves the graph 
 plt.show()  #generates the graph
+
 
 ## ADITIONAL INFORMATION
 apogeu = max(data["AU"])  #gets you the apogee
