@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ## READING THE FILE
-data= pandas.read_csv("eph_table.csv",skiprows=2)   #reading the file
+data= pandas.read_csv("vesta_data.csv",skiprows=2)   #reading the file
 print(data["AU"])  #printing a list of only the data position in astronomical units
 
 
