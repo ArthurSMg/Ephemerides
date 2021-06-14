@@ -9,6 +9,6 @@ So, the idea behind this simple code, is to calculate the orbital period of the 
 
 So basically the progrma reads the data, that its avaliable here as "vesta_data.csv", then produces a plot of position x time of the asteroids orbit arround the Earth, what is also called the Ephemerides. You expect it to have a periodic behavior since it goes arround and comes back. The period of the orbit can be calculated as the period how many days it takes to the graph to repeats itself, and the apogee and peregee are easily calculated by using the max() and min() list function of Python;
 
-* Here an example of how the graph will look like 
+* Here an example of how the graph will look like:
 
 ![alt text](https://github.com/ArthurSMg/Ephemerides/blob/main/Graph_vesta.png?raw=true)
